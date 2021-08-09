@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+}
+
+#logo {
+  width: 36px;
+  height: 46px;
+}
+
+.navbar {
+  background: #ffffff36;
+}
+
+.nav-link {
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: rgb(243, 190, 78);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.header {
+  position: relative;
+  background-image: url("../images/4.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(87, 86, 86, 0.479);
+}
+
+.description {
+  position: relative;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h1 {
+  color: whitesmoke;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.description p {
+  color: whitesmoke;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid rgb(243, 190, 78);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.description button:hover {
+  background: rgb(243, 190, 78);
+  letter-spacing: 6px;
+}
+
+/* services */
+.service {
+  background: white;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.service h6 {
+  margin-top: 6%;
+  color: rgb(18, 119, 126);
+}
+
+.service h1 {
+  color: rgb(18, 119, 126);
+}
+
+.service button {
+  background: rgb(243, 190, 78);
+  border: none;
+  padding: 2%;
+  letter-spacing: 2px;
+}
+
+.service button:hover {
+  background: rgb(243, 190, 78);
+  border: none;
+  letter-spacing: 5px;
+}
+
+/* end service */
+
+/* rgb(18,119,126) VERT
+	 rgb(243,190,78) JAUNE
+	 rgb(235,39,54) rOUGE */
+
+/* product */
+
+.Products h1 {
+  color: rgb(18, 119, 126);
+  margin-top: 8%;
+  font-size: 30px;
+}
+
+.Products {
+  margin-bottom: 3%;
+}
+
+.Products h1 span {
+  font-size: 30px;
+  color: black;
+}
+
+.Products h4 {
+  color: rgb(18, 119, 126);
+  font-size: 17px;
+}
+
+.Products p {
+  color: #494949;
+  font-size: 15px;
+  margin-bottom: 4%;
+}
+
+.Products a {
+  background: rgb(243, 190, 78);
+  border: none;
+}
+
+.Products a:hover {
+  background: rgb(243, 190, 78);
+  border: none;
+  letter-spacing: 5px;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 3px;
+  background-color: rgb(18, 119, 126);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* end product */
+
+/* experience  */
+.experience {
+  background: linear-gradient(45deg, #12777e, #2b2b2b);
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.experience p {
+  color: whitesmoke;
+  margin-top: 6%;
+}
+
+.experience img {
+  width: 50%;
+}
+
+/* end experience  */
+
+.Teams h1 {
+  margin-bottom: 2%;
+  color: black;
+  font-size: 30px;
+}
+
+.Teams span {
+  font-size: 15px;
+}
+
+.Teams .des {
+  font-size: 20px;
+}
+
+.Teams {
+  margin-bottom: 6%;
+}
+
+/* footer */
+.Footeer {
+  background: linear-gradient(45deg, #643d0b, #2b2b2b);
+}
+
+.Footeer h1 {
+  color: #fff;
+}
+
+/* END FOOTER */
